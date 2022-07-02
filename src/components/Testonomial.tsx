@@ -27,17 +27,17 @@ const clients = [
 const Testonomial = () => {
   return (
     <div className="py-36 px-14">
-      <h4 className="font-[Fraunces] mb-16 text-center text-xl tracking-widest text-grayish-blue-100">
+      <h4 className="mb-16 text-center font-[Fraunces] text-xl tracking-widest text-grayish-blue-100">
         CLIENT TESTONOMIAL
       </h4>
       <main className="grid grid-cols-1 mobileL:grid-cols-3">
         {clients.map((client) => (
           <div
             key={client.id}
-            className="flex flex-col items-center max-w-xs justify-center"
+            className="flex max-w-xs flex-col items-center justify-center"
           >
             <img
-              className="rounded-full w-1/6"
+              className="w-1/6 rounded-full"
               src={client.image}
               alt={`${client.name} pic`}
             />
