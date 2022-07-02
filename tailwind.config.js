@@ -12,7 +12,6 @@ module.exports = {
         mobileL: "426px",
         tablet: "769px",
         laptop: "1024px",
-        laptopL: "1440px",
       },
       colors: {
         white: "#fff",
