@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply text-lg;
+@layer utilities {
+  .about-info {
+    @apply mx-auto flex max-w-[18rem] flex-col justify-center py-16 text-center mobileL:py-0 mobileL:text-left tablet:max-w-sm;
+  }
+
+  .about-link {
+    @apply relative font-[Fraunces] after:absolute after:top-[0.8rem] after:left-[5.5rem] after:h-2 after:w-[7rem] after:rounded-md after:bg-yellow/20 sm:after:-left-2 sm:after:w-[8rem];
+  }
+
+  .image-info {
+    @apply absolute top-[65%] left-5 max-w-[21rem] space-y-5 text-center mobileL:left-16 laptop:left-56;
+  }
+
+  .image-info-h3 {
+    @apply font-[Fraunces] text-4xl font-black mobileL:text-3xl;
+  }
+
+  .image-info-p {
+    @apply font-[Barlow];
   }
 }

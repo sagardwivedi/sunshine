@@ -18,7 +18,7 @@ const MobileImages: Props = {
   PhotographyImage: require("./image-photography.jpg"),
   HeaderImage: require("./image-header.jpg"),
   GraphicDesignImage: require("./image-graphic-design.jpg"),
-  GallerySugerCubeaImage: require("./image-gallery-sugarcubes.jpg"),
+  GallerySugerCubeaImage: require("./image-gallery-sugar-cubes.jpg"),
   GalleryOrange: require("./image-gallery-orange.jpg"),
   GalleryMilkBottles: require("./image-gallery-milkbottles.jpg"),
   GalleryCone: require("./image-gallery-cone.jpg"),
