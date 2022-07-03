@@ -33,7 +33,7 @@ type ImageProps = {
 };
 
 export const Images: ImageProps = {
-  EmilyImage: require("./image-emily.jpg"),
-  JennieImage: require("./image-jennie.jpg"),
-  ThomasImage: require("./image-thomas.jpg"),
+  EmilyImage: require("./image-emily.webp"),
+  JennieImage: require("./image-jennie.webp"),
+  ThomasImage: require("./image-thomas.webp"),
 };

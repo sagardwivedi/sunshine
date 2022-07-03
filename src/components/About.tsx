@@ -4,12 +4,13 @@ import MobileImages from "../images/mobile";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 mobileL:grid-cols-2">
+    <div className="grid grid-cols-1 tablet:grid-cols-2">
       <img
         className="mobileL:hidden"
-        src={MobileImages.TransformImage}
+        src={MobileImages.TransformImageW}
         alt="An white egg with yello backgeounf"
       />
+
       <div className="about-info">
         <h2 className="font-[Fraunces] text-4xl font-black text-dark-de-blue">
           Transform your brand
@@ -26,19 +27,19 @@ const About = () => {
 
       <img
         className="hidden w-full mobileL:block"
-        src={DesktopImage.TransformImage}
+        src={DesktopImage.TransformImageW}
         alt="A egg with a yellow background"
       />
 
       <img
         className="hidden w-full sm:block"
-        src={DesktopImage.StandOutImage}
+        src={DesktopImage.StandOutImageW}
         alt="A vase with a soft red background"
       />
 
       <img
         className="sm:hidden"
-        src={MobileImages.StandOutImage}
+        src={MobileImages.StandOutImageW}
         alt="A vase with a soft red background"
       />
 
@@ -60,22 +61,20 @@ const About = () => {
         {/* Mobile */}
         <img
           className="sm:hidden"
-          src={MobileImages.GraphicDesignImage}
+          src={MobileImages.GraphicDesignImageW}
           alt="A red cherry with a backgroundImage"
         />
 
         {/* Desktop */}
         <img
           className="hidden w-full sm:block"
-          src={DesktopImage.GraphicDesignImage}
+          src={DesktopImage.GraphicDesignImageW}
           alt="A red cherry with a backgroundImage"
         />
 
         {/* Text */}
         <article className="image-info text-dark-de-cyan-graphic-text ">
-          <h3 className="image-info-h3">
-            Graphic design
-          </h3>
+          <h3 className="image-info-h3">Graphic design</h3>
           <p className="image-info-p">
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients&#39;
@@ -88,22 +87,20 @@ const About = () => {
         {/* Mobile */}
         <img
           className="sm:hidden"
-          src={MobileImages.PhotographyImage}
+          src={MobileImages.PhotographyImageW}
           alt="A orange fruit with blue background"
         />
 
         {/* Desktop */}
         <img
           className="hidden w-full sm:block"
-          src={DesktopImage.PhotographyImage}
+          src={DesktopImage.PhotographyImageW}
           alt="A orange fruit with blue background"
         />
 
         {/* Text */}
         <article className="image-info text-dark-de-cyan-graphic-text">
-          <h3 className="image-info-h3">
-            Photography
-          </h3>
+          <h3 className="image-info-h3">Photography</h3>
           <p className="image-info-p">
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.

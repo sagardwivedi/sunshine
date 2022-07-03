@@ -18,7 +18,7 @@ const Navbar = () => {
         alt="HamburgerIcon"
         onClick={showMenu}
       />
-      <ul className="menu -left-5 top-[135%] hidden flex-col items-center justify-center space-y-6 bg-white px-[7.2rem] py-8 font-[Barlow] text-lg text-grayish-blue-200 sm:block mobileL:space-y-0  mobileL:space-x-10 mobileL:bg-transparent mobileL:px-0 mobileL:py-0 mobileL:text-white">
+      <ul className="menu -left-5 top-[135%] hidden flex-col items-center justify-center space-y-6 bg-white px-[7.2rem] py-8 font-[Barlow] text-lg text-grayish-blue-200 sm:block mobileL:space-y-0 mobileL:space-x-10 mobileL:bg-transparent mobileL:px-0 mobileL:py-0 mobileL:text-white">
         <span className="absolute -top-8 right-0 h-8 w-8 rounded-tl-full bg-white  mobileL:hidden" />
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>

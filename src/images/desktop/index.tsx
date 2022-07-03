@@ -1,27 +1,25 @@
-// import all the images from the src/images/desktop folder and export them
-
 type Props = {
-  TransformImage: string;
-  StandOutImage: string;
-  PhotographyImage: string;
-  HeaderImage: string;
-  GraphicDesignImage: string;
-  GallerySugerCubeaImage: string;
-  GalleryOrange: string;
-  GalleryMilkBottles: string;
-  GalleryCone: string;
+  TransformImageW: string;
+  StandOutImageW: string;
+  PhotographyImageW: string;
+  HeaderImageW: string;
+  GraphicDesignImageW: string;
+  GallerySugerCubeaImageW: string;
+  GalleryOrangeImageW: string;
+  GalleryMilkBottlesImageW: string;
+  GalleryConeImageW: string;
 };
 
 const DesktopImage: Props = {
-  TransformImage: require("./image-transform.jpg"),
-  StandOutImage: require("./image-stand-out.jpg"),
-  PhotographyImage: require("./image-photography.jpg"),
-  HeaderImage: require("./image-header.jpg"),
-  GraphicDesignImage: require("./image-graphic-design.jpg"),
-  GallerySugerCubeaImage: require("./image-gallery-sugarcubes.jpg"),
-  GalleryOrange: require("./image-gallery-orange.jpg"),
-  GalleryMilkBottles: require("./image-gallery-milkbottles.jpg"),
-  GalleryCone: require("./image-gallery-cone.jpg"),
+  TransformImageW: require("./image-transform.webp"),
+  StandOutImageW: require("./image-stand-out.webp"),
+  PhotographyImageW: require("./image-photography.webp"),
+  HeaderImageW: require("./image-header.webp"),
+  GraphicDesignImageW: require("./image-graphic-design.webp"),
+  GallerySugerCubeaImageW: require("./image-gallery-sugarcubes.webp"),
+  GalleryOrangeImageW: require("./image-gallery-orange.webp"),
+  GalleryMilkBottlesImageW: require("./image-gallery-milkbottles.webp"),
+  GalleryConeImageW: require("./image-gallery-cone.webp"),
 };
 
 export default DesktopImage;

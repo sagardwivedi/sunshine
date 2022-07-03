@@ -1,4 +1,4 @@
-import { About, HeroSection, Navbar, Testonomial } from "./components";
+import { About, Footer, HeroSection, Navbar, Testonomial } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       </header>
       <About />
       <Testonomial />
+      <Footer />
     </div>
   );
 }

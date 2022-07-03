@@ -1,14 +1,24 @@
 import { Icons } from "../images";
+import DesktopImage from "../images/desktop";
+import MobileImages from "../images/mobile";
 
 const HeroSection = () => {
   return (
-    <main className="flex h-screen  flex-col items-center justify-center space-y-24 bg-heroMobile bg-cover bg-center bg-no-repeat text-center font-[Fraunces] text-5xl font-black tracking-widest text-white sm:space-y-20 sm:bg-heroDesktop sm:text-8xl">
-      <h1 className="sm:-mt-36">WE ARE CREATIVES</h1>
+    <main className="relative">
       <img
-        className="animate-bounce"
-        src={Icons.ArrowDownIcon}
-        alt="ArrowDown"
+        className="mobileL:hidden"
+        alt="A cut lemon with blue background"
+        src={MobileImages.HeaderImageW}
       />
+      <img
+        className="hidden sm:block"
+        alt="A cut lemon with blue background"
+        src={DesktopImage.HeaderImageW}
+      />
+      <div className="absolute top-[40%] left-[23%] flex flex-auto flex-col items-center justify-center space-y-24 text-center font-[Fraunces] text-4xl font-black tracking-widest text-white sm:space-y-20 mobileL:text-5xl tablet:text-7xl">
+        <h1 className="sm:-mt-36">WE ARE CREATIVES</h1>
+        <img src={Icons.ArrowDownIcon} alt="ArrowDown" />
+      </div>
     </main>
   );
 };
