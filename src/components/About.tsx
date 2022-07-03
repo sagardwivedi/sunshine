@@ -26,18 +26,21 @@ const About = () => {
       </div>
 
       <img
+        loading="lazy"
         className="hidden w-full mobileL:block"
         src={DesktopImage.TransformImageW}
         alt="A egg with a yellow background"
       />
 
       <img
+        loading="lazy"
         className="hidden w-full sm:block"
         src={DesktopImage.StandOutImageW}
         alt="A vase with a soft red background"
       />
 
       <img
+        loading="lazy"
         className="sm:hidden"
         src={MobileImages.StandOutImageW}
         alt="A vase with a soft red background"
@@ -60,6 +63,7 @@ const About = () => {
       <div className="relative">
         {/* Mobile */}
         <img
+          loading="lazy"
           className="sm:hidden"
           src={MobileImages.GraphicDesignImageW}
           alt="A red cherry with a backgroundImage"
@@ -67,6 +71,7 @@ const About = () => {
 
         {/* Desktop */}
         <img
+          loading="lazy"
           className="hidden w-full sm:block"
           src={DesktopImage.GraphicDesignImageW}
           alt="A red cherry with a backgroundImage"
@@ -86,6 +91,7 @@ const About = () => {
       <div className="relative">
         {/* Mobile */}
         <img
+          loading="lazy"
           className="sm:hidden"
           src={MobileImages.PhotographyImageW}
           alt="A orange fruit with blue background"
@@ -93,6 +99,7 @@ const About = () => {
 
         {/* Desktop */}
         <img
+          loading="lazy"
           className="hidden w-full sm:block"
           src={DesktopImage.PhotographyImageW}
           alt="A orange fruit with blue background"
