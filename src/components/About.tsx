@@ -6,9 +6,12 @@ const About = () => {
   return (
     <div className="grid grid-cols-1 tablet:grid-cols-2">
       <img
+        loading="lazy"
         className="mobileL:hidden"
         src={MobileImages.TransformImageW}
         alt="An white egg with yello backgeounf"
+        width="100%"
+        height="100%"
       />
 
       <div className="about-info">
